@@ -1,5 +1,10 @@
 import React from "react";
 
+import git from "../../src/img/Git.png";
+import Instagram from "../../src/img/Instagram.png";
+import Email from "../../src/img/Email.png";
+import telpon from "../../src/img/telpon.png";
+
 function Contact() {
   return (
     <>
@@ -22,7 +27,7 @@ function Contact() {
           href="https://github.com/wat885"
         >
           <div>
-            <img src="img/Git.png" alt="git" />
+            <img src={git} alt="git" />
           </div>
 
           <p className="font-[500] leading-[52px]   text-[#3F3D56] text-4xl tracking-[.055em] mt-[30px]">
@@ -36,7 +41,7 @@ function Contact() {
           href="#"
         >
           <div>
-            <img src="img/Instagram.png" alt="git" />
+            <img src={Instagram} alt="Instagram" />
           </div>
 
           <p className="font-[500] leading-[52px]   text-[#3F3D56] text-4xl tracking-[.055em] mt-[30px]">
@@ -50,7 +55,7 @@ function Contact() {
           onClick={() => alert("twatcharin90@gmail.com")}
         >
           <div>
-            <img src="img/Email.png" alt="git" />
+            <img src={Email} alt="Email" />
           </div>
 
           <p className="font-[500] leading-[52px]   text-[#3F3D56] text-4xl tracking-[.055em] mt-[30px]">
@@ -63,7 +68,7 @@ function Contact() {
           href="#"
         >
           <div>
-            <img src="img/telpon.png" alt="git" />
+            <img src={telpon} alt="telpon" />
           </div>
 
           <p className="font-[500] leading-[52px]   text-[#3F3D56] text-4xl tracking-[.055em] mt-[30px]">

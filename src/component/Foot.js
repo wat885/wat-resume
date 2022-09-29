@@ -1,7 +1,9 @@
 import React from "react";
 
-function Footer() {
-  return <img src="img/Vector.png" alt="git" className="w-screen" />;
+import Vector from "../../src/img/Vector.png";
+
+function Foot() {
+  return <img src={Vector} alt="git" className="w-screen" />;
 }
 
-export default Footer;
+export default Foot;
