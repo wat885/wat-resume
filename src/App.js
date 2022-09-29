@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import { useState } from "react";
+import Navbar from "./component/Navbar";
+import Hero from "./component/Hero";
+import PassionsCard from "./component/PassionsCard";
+import Portfolio from "./component/Portfolio";
+import Contact from "./component/Contact";
+import Foot from "./component/Foot";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container mx-auto mt-[35px] ">
+
+        <Navbar />
+        <Hero />
+        <PassionsCard />
+        <Portfolio />
+        <Contact />
+      </div>
+      {/* <Foot /> */}
     </div>
   );
 }
 
 export default App;
+
+// bg-red-300
+// sm:bg-slate-300
+// md:bg-blue-300
+// lg:bg-red-800
+// xl:bg-blue-800
+// 2xl:bg-green-800
