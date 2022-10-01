@@ -12,14 +12,19 @@ import Foot from "./component/Foot";
 function App() {
   return (
     <div className="App">
-      <div className="container mx-auto mt-[35px] ">
+
+
+
+
+      {/* style1 */}
+      {/* <div className="container mx-auto mt-[35px] ">
         <Navbar />
         <Hero />
         <PassionsCard />
         <Portfolio />
         <Contact />
       </div>
-      <Foot />
+      <Foot /> */}
     </div>
   );
 }
